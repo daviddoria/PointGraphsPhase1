@@ -42,6 +42,7 @@ vtkCollapseGraph.cxx
 vtkCollapseVerticesByArray.cxx
 vtkCommunity2DLayoutStrategy.cxx
 vtkConeLayoutStrategy.cxx
+vtkConnectGraph.cxx
 vtkConstrained2DLayoutStrategy.cxx
 vtkContingencyStatistics.cxx
 vtkCorrelativeStatistics.cxx

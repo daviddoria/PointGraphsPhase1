@@ -2,11 +2,19 @@ IF(VTK_USE_BOOST)
   include_directories(${Boost_INCLUDE_DIRS})
 ENDIF(VTK_USE_BOOST)
 
+# Tests which only require Boost
+IF (VTK_USE_BOOST)
+  # add boost tests
+  SET(MyTests ${MyTests}
+    TestConnectGraph.cxx
+    )
+ENDIF (VTK_USE_BOOST)
+
 # if we have rendering add the following tests
 IF (VTK_USE_RENDERING AND VTK_USE_DISPLAY)
   SET(KIT Infovis)
   # add tests that do not require data
-  SET(MyTests
+  SET(MyTests ${MyTests}
     TestArcEdges
     TestAssignCoordinates
     TestCirclePackLayoutStrategy

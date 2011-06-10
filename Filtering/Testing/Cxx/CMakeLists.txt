@@ -21,9 +21,11 @@ CREATE_TEST_SOURCELIST(Tests ${KIT}CxxTests.cxx
   TestGenericCell.cxx
   TestGraph.cxx
   TestHigherOrderCell.cxx
+  TestNearestNeighborGraphFilter
   TestPointLocators.cxx
   TestPolyDataRemoveCell.cxx
   TestPolygon.cxx
+  TestRBNNGraphFilter.cxx
   TestSelectionSubtract.cxx
   TestTreeBFSIterator.cxx
   TestTriangle.cxx

@@ -145,6 +145,7 @@ vtkMultiBlockDataSet.cxx
 vtkMultiPieceDataSet.cxx
 vtkMutableDirectedGraph.cxx
 vtkMutableUndirectedGraph.cxx
+vtkNearestNeighborGraphFilter.cxx
 vtkNonLinearCell.cxx
 vtkNonMergingPointLocator.cxx
 vtkOctreePointLocator.cxx
@@ -161,6 +162,7 @@ vtkPiecewiseFunctionShiftScale.cxx
 vtkPixel.cxx
 vtkPlanesIntersection.cxx
 vtkPointData.cxx
+vtkPointGraphFilter.cxx
 vtkPointLocator.cxx
 vtkPointSetAlgorithm.cxx
 vtkPointSet.cxx
@@ -190,6 +192,7 @@ vtkQuadraticQuad.cxx
 vtkQuadraticTetra.cxx
 vtkQuadraticTriangle.cxx
 vtkQuadraticWedge.cxx
+vtkRBNNGraphFilter.cxx
 vtkRectilinearGridAlgorithm.cxx
 vtkRectilinearGrid.cxx
 vtkRectilinearGridSource.cxx
